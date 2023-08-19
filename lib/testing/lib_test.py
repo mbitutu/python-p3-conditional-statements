@@ -42,7 +42,7 @@ class TestHowsTheWeather:
         assert(hows_the_weather(75) == "It's perfect out there!")
 
 class TestFizzBuzz:
-    '''fizzbuzz() in control_flow.py'''
+    '''fizzbuzz (num) in control_flow.py'''
 
     def test_returns_fizzbuzz_multiple_3_and_5(self):
         '''returns "FizzBuzz" for num=0, num=15, num=45'''
